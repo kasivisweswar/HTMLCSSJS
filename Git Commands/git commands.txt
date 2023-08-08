@@ -1,0 +1,24 @@
+git commands
+
+git clone "url"
+this is the commands to use in the server machine to get sir's repository
+
+git status
+this gives us the status of our folder
+
+git add .
+this is to add the folders tht we created in the server machine to git repository
+
+git commit -m "v1"
+here we are commit that to send the data to the git repository....here v1 is nothing but a word...here we can use anything
+
+git push
+finally to push the data from our machine to our git
+
+
+##
+git fetch
+this is for to get the sir's repository that sir updates each day
+
+git pull
+this is command is for to pull the updates sir's data into our server machine
