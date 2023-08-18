@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        /* here i gave the comand that to style the p tag in div tag */
+        /* but the output is going to parathree which is not in div */
+        /* here the adjacent means it will print the given style not the for the given tag but the next tag*/
+        div + p{
+            border: 2px solid darkcyan;
+            padding: 5px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <p>paraone</p>
+    <div>
+    <p>paratwo</p></div>
+    <div>
+    <p>parathree</p></div>
+    <p>parafour</p>
+    <p>parafive</p>
+    <p>parasix</p>
+</body>
+</html>

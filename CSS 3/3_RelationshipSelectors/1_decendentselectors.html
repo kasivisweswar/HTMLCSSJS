@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        /* if we write section space di then it is decendentselector */
+        /* @@@there it says that dont apply to the section but apply to div */
+        section div {
+            border: 2px solid violet;
+            padding: 5px;
+            margin: 10px;
+        }
+        /* @@@there it says that dont apply to the section and div but apply to b */
+        section div b{
+            color: aqua;
+            font-style: oblique;
+        }
+        /* @@@there it says that dont apply to the section and ul but apply to li */
+        section ul li{
+            color: salmon;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+    </section>
+    <section>
+        <div>
+            <p>java is <b>OOPL</b></p>
+        </div>
+    </section>
+    <section>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+        </ul>
+    </section>
+</body>
+</html>
