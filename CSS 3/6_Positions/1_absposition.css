@@ -1,0 +1,35 @@
+.c1{
+    border: 2px solid chartreuse;
+    padding: 5px;
+    margin: 5px;
+}
+.c2{
+    border: 2px solid cadetblue;
+    padding: 5px;
+    margin: 5px;
+}
+.c3{
+    border: 2px solid chocolate;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    top: 250px;
+    bottom: 250px;
+    left: 250px;
+    right: 250px;
+}
+.c4{
+    border: 2px solid coral;
+    padding: 5px;
+    margin: 5px;
+}
+.c5{
+    border: 2px solid cornflowerblue;
+    padding: 5px;
+    margin: 5px;
+}
+.c6{
+    border: 2px solid crimson;
+    padding: 5px;
+    margin: 5px;
+}

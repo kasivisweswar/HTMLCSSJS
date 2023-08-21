@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <style>
+        div {
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 10px;
+        
+            font-size: xx-large;
+            color: black;
+            background-color: crimson;
+        }
+
+        div:nth-child(1) {
+            position: absolute;
+            top: 0px;
+            /* here z-index: "-1"shows the "two" front */
+
+            z-index: -1;
+            /* here z-index: "0" shows the "one" front */
+            /* z-index: 0; */
+        }
+    </style>
+</head>
+
+<body>
+    <div>one</div>
+    <div>two</div>
+    <div>three</div>
+    <div>four</div>
+    <div>five</div>
+    <div>six</div>
+
+</body>
+
+</html>
