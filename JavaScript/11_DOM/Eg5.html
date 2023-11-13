@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector and querySelectorAll</title>
+</head>
+<body>
+    <div id="id1">
+        <p>Java is OOPL</p>
+    </div>
+    <div id="id1">
+        <p>Python is OOPL</p>
+    </div>
+    <div id="id1">
+        <p>JavaScript is OOPL</p>
+    </div>
+    <ul>
+        <li class="list1">listone</li>
+        <li class="list1">listtwo</li>
+        <li class="list1" >listthree</li>
+        <li class="list1">listfour</li>
+        
+    </ul>
+    <div>
+        <p class="c1">classone</p>
+        <p class="c1">classtwo</p>
+        <p class="c1">classthree</p>
+        <p class="c1">classfour</p>
+    </div>
+    <script>
+        var v1=document.querySelector("#id1")
+        v1.style.backgroundColor="skyblue"
+
+        var v2=document.querySelectorAll("#id1")
+        for(var i=0;i<v2.length;i++){
+            console.log(v2[i].style.backgroundColor="blue")
+
+        }
+        
+
+        var l3=document.querySelector(".list1")
+        l3.style.color="red"
+
+        var l4=document.querySelectorAll('.c1')
+        for(var i=0;i<l4.length;i++){
+            console.log(l4[i].style.backgroundColor="lightgreen")
+        }
+        
+    </script>
+</body>
+</html>

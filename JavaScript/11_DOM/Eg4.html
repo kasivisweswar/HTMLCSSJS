@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>getElementsByTagName</title>
+</head>
+<body>
+    <div>
+        <ul class="c1">
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+            <li>five</li>
+        </ul>
+    </div>
+    <script>
+        // not a html collection
+        // var v=document.getElementsByClassName("c1")
+        // console.log(v)
+        // html collection
+        var v=document.getElementsByTagName("li")
+        console.log(v)
+
+        for (var i=0;i<v.length;i++){
+            v[i].style.backgroundColor="lightblue"
+            v[i].style.padding="15px"
+            v[i].style.fontSize="larger"
+        }
+
+
+
+    </script>
+</body>
+</html>

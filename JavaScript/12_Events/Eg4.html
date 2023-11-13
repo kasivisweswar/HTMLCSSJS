@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <section>
+        <h2>Enter Text</h2>
+        <!-- oninput command will allow us to write in the both 2 boxes in the output -->
+        <textarea oninput="f1(this)" name="" id="" cols="30" rows="10"></textarea>
+    </section>
+
+    <section style="border: 1px solid aqua; font-size: xx-large;"> 
+        <h2>Entered Text is: </h2>
+        <div id="id1"></div>
+    </section>
+
+    <script>
+        function f1(element){
+            var v=element.value
+            document.getElementById("id2").innerHTML=v
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Fill The Form</legend>
+        <form action="">
+            <label for="fname">FirstName</label>
+            <input type="text" id="id1" onfocus="f1()">
+    
+            <label for="lname">LastName</label>
+            <input type="text" id="id2" onfocus="f2()">
+        </form>
+    </fieldset>
+
+    <script>
+        function f1(){
+            var v=document.getElementById("id1")
+            v.style.borderColor="blue"
+            v.style.padding="10px"
+            v.style.width="250px"
+            v.style.borderRadius="5px"
+            console.log("onfocus from input filed")
+        }       
+
+        function f2(){
+            var v=document.getElementById("id2")
+            v.style.borderColor="aqua"
+            v.style.padding="10px"
+            v.style.width="250px"
+            v.style.borderRadius="5px"
+            console.log("onfocus from input filed")
+        } 
+    </script>
+</body>
+</html>

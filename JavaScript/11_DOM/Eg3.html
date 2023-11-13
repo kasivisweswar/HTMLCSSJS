@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>getElementsByClassName</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <l1 class="list1">ListOne</l1>
+            <l1 class="list1">ListTwo</l1>
+            <l1 class="list1">ListThree</l1>
+            <l1 class="list1">ListFour</l1>
+        </ul>
+    </div>
+    <script>
+        var v=document.getElementsByClassName("list1")
+        console.log(v)
+
+        v[0].style.fontSize="larger"
+        v[1].style.backgroundColor="lightblue"
+        v[2].style.fontFamily="arial"
+        v[3].style.border="2px solid blue"
+
+        for (var i=0;i<v.length;i++){
+            v[i].style.fontFamily="Cursive"
+        }
+    </script>
+</body>
+</html>
